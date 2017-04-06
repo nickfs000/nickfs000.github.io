@@ -1,14 +1,14 @@
 {
   "settings": {
     "name": "NewSite-04-05_2324",
-    "currentPage": "index.html",
+    "currentPage": "contact",
     "theme": {
       "name": "purity",
       "title": "PurityM",
       "styling": {}
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 26,
+    "uniqCompNum": 34,
     "versionPublish": "3.11.1"
   },
   "pages": {
@@ -137,7 +137,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Raise Restaurant Revenue</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-pin mbr-iconfont mbr-iconfont-btn\"></span>Home</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"https://mobirise.com/\">For Mac</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-pin mbr-iconfont mbr-iconfont-btn\"></span>Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"https://mobirise.com/\">For Mac</a></li>"
         },
         {
           "_customTemplate": true,
@@ -320,6 +320,48 @@
           "_tags": [
             "Theme"
           ],
+          "_name": "content4",
+          "_anchor": "content4-m",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showTitles": true,
+            "showCaptions": true
+          },
+          "title1": "Social Media Development",
+          "caption1": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",
+          "title2": "Social Media Consulting",
+          "caption2": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",
+          "title3": "Community Management",
+          "caption3": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",
+          "title4": "Social Content Creation",
+          "caption4": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",
+          "_styles": {
+            "H4": {
+              "font-size": "17px",
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
           "_name": "footer1",
           "_anchor": "footer1-i",
           "_params": {
@@ -376,46 +418,93 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
             }
           }
+        }
+      ]
+    },
+    "contact": {
+      "settings": {},
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.4em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-family": "'Alegreya Sans', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "alias": "dropdown-menu",
+          "_name": "dropdown-menu-2btn",
+          "_anchor": "dropdown-menu-2btn-q",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1.4",
+            "fontName": {
+              "name": "Alegreya Sans",
+              "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "css": "'Alegreya Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": false,
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@ADDONS_PATH@/dropdown-menu/logo.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Raise Restaurant Revenue</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-pin mbr-iconfont mbr-iconfont-btn\"></span>Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"https://mobirise.com/\">For Mac</a></li>"
         },
         {
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "content4",
-          "_anchor": "content4-m",
+          "_name": "image1",
+          "_anchor": "image1-x",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
-            "showTitles": true,
-            "showCaptions": true
+            "showText": true
           },
-          "title1": "Social Media Development",
-          "caption1": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",
-          "title2": "Social Media Consulting",
-          "caption2": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",
-          "title3": "Community Management",
-          "caption3": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",
-          "title4": "Social Content Creation",
-          "caption4": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/photo-13.jpg",
+              "width": 1400
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Get the recognition your restaurant deserves!",
           "_styles": {
-            "H4": {
-              "font-size": "17px",
-              "font-family": "'Alegreya Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            "DIV": {
+              "text-align": "center"
             }
           }
         },
@@ -425,13 +514,20 @@
             "Theme"
           ],
           "_name": "form1",
-          "_anchor": "form1-d",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "form1-t",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "file:///Volumes/MacProDataCenter/Library/Application%20Support/Mobirise.com/Mobirise/projectData/photo-3_17.jpg",
             "bgColor": "#fff",
             "bgColorRadio": true,
             "overlay": false,
@@ -467,14 +563,28 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info-outline btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "font-size": "18px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info-outline btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-r",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgColor": "#26272c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "© 2017 Raise Restaurant Revenue. All Rights Reserved."
         }
       ]
     }
