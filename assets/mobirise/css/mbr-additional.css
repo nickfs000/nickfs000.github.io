@@ -2,6 +2,13 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 
 
+
+
+
+
+#slider-h H2 {
+  font-family: 'Alegreya Sans', sans-serif;
+}
 #dropdown-menu-2btn-0 .hide-buttons [data-button] {
   display: none !important;
 }
@@ -34,6 +41,15 @@
 }
 #msg-box3-g .mbr-header .mbr-header__subtext {
   text-align: center;
+}
+#msg-box3-g .mbr-section-title {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+#content5-k .mbr-section-title {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+#content5-l .mbr-section-title {
+  font-family: 'Alegreya Sans', sans-serif;
 }
 #form1-d .mbr-section-title {
   font-family: 'Lato', sans-serif;

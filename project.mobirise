@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 19,
+    "uniqCompNum": 22,
     "versionPublish": "3.11.1"
   },
   "pages": {
@@ -73,7 +73,13 @@
             "showBullets": true
           },
           "_anchor": "slider-h",
-          "articleLayout": false
+          "articleLayout": false,
+          "_styles": {
+            "H2": {
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            }
+          }
         },
         {
           "_inherit": "dropdown-menu",
@@ -203,6 +209,10 @@
             },
             ".mbr-header .mbr-header__subtext": {
               "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
             }
           },
           "alias": "purity/components",
@@ -241,6 +251,74 @@
           "_tags": [
             "Theme"
           ],
+          "_name": "content5",
+          "_anchor": "content5-k",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "Social Media Marketing Is All We Do",
+          "caption": "<p>We work with brand managers, marketers, PR or social media teams, and even other agencies to deliver social media marketing services that generate measurable business results.&nbsp;</p>",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-l",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "Our Mission: Transform the world of marketing through social media",
+          "caption": "<p>Be it across the entire social media mix or the small-scale plans for product launches, we have a well-defined, market-tested process for working with clients on award-winning social strategies. We build a roadmap for success aligning audience, objectives, strategies and tactics in a way that achieves specific, measurable results.&nbsp;</p>",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
           "_name": "form1",
           "_anchor": "form1-d",
           "_params": {
@@ -256,7 +334,7 @@
             "overlayColor": "#222",
             "showTitle": true
           },
-          "title": "Contact Form",
+          "title": "Want to know more about us? Provide us your information and we'll get the conversation started.",
           "form": {
             "action": "nickfsanchez@gmail.com",
             "alerts": {
@@ -312,7 +390,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "2017 Raise Restaurant Revenue. All Rights Reserved."
+          "text": "© 2017 Raise Restaurant Revenue. All Rights Reserved."
         }
       ]
     }
