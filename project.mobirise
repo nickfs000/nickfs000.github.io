@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 10,
+    "uniqCompNum": 13,
     "versionPublish": "3.11.1"
   },
   "pages": {
@@ -60,10 +60,10 @@
               "css": "'Alegreya Sans', sans-serif"
             },
             "fontColor": "#000000",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": false,
-            "showBrand": true,
+            "showBrand": false,
             "hideButtons": true
           },
           "logo": {
@@ -92,6 +92,19 @@
           "_anchor": "custom-html-9",
           "_PHPplaceholders": [],
           "_JSplaceholders": []
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-b",
+          "title": "Drop-Dead Easy Website Maker",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "By John Smith posted July 30, 2015"
         }
       ]
     }
