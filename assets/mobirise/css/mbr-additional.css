@@ -6,8 +6,11 @@
 
 
 
+
+
 #slider-h H2 {
   font-family: 'Alegreya Sans', sans-serif;
+  font-size: 60px;
 }
 #dropdown-menu-2btn-0 .hide-buttons [data-button] {
   display: none !important;
@@ -49,6 +52,13 @@
   font-family: 'Alegreya Sans', sans-serif;
 }
 #content5-l .mbr-section-title {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+#form2-p .mbr-section-title {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+#content4-m H4 {
+  font-size: 17px;
   font-family: 'Alegreya Sans', sans-serif;
 }
 #form1-d .mbr-section-title {

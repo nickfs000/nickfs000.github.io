@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 22,
+    "uniqCompNum": 26,
     "versionPublish": "3.11.1"
   },
   "pages": {
@@ -77,7 +77,8 @@
           "_styles": {
             "H2": {
               "font-family": "'Alegreya Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-size": "60px"
             }
           }
         },
@@ -243,7 +244,7 @@
           },
           "title": "We Turn Social Media Marketing On Its Head Every Day",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>We work with brand managers, marketers, PR or social media teams, and even other agencies to deliver social media marketing services that generate measurable business results.&nbsp;</p>",
+          "text": "<p>Social media has the potential to fundamentally change the way brands communicate with their customers and prospects. Focus 100% of our time providing services that will help engage your customers on the two-way conversations online.</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">See All Templates</a>"
         },
         {
@@ -319,6 +320,110 @@
           "_tags": [
             "Theme"
           ],
+          "_name": "footer1",
+          "_anchor": "footer1-i",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgColor": "#26272c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "© 2017 Raise Restaurant Revenue. All Rights Reserved."
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-p",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgColor": "#d9534f",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "Subscribe to our Newsletter",
+          "form": {
+            "action": "nickfsanchez@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email Address..."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Subscribe</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-m",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showTitles": true,
+            "showCaptions": true
+          },
+          "title1": "Social Media Development",
+          "caption1": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",
+          "title2": "Social Media Consulting",
+          "caption2": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",
+          "title3": "Community Management",
+          "caption3": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",
+          "title4": "Social Content Creation",
+          "caption4": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",
+          "_styles": {
+            "H4": {
+              "font-size": "17px",
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
           "_name": "form1",
           "_anchor": "form1-d",
           "_params": {
@@ -362,7 +467,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\">Contact Us</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info-outline btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>",
           "_styles": {
             ".mbr-section-title": {
               "font-family": "'Lato', sans-serif",
@@ -370,27 +475,6 @@
               "font-size": "18px"
             }
           }
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-i",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
-            "bgColor": "#26272c",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "© 2017 Raise Restaurant Revenue. All Rights Reserved."
         }
       ]
     }
