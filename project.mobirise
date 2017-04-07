@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 38,
+    "uniqCompNum": 41,
     "versionPublish": "3.11.1"
   },
   "pages": {
@@ -328,22 +328,62 @@
           "_tags": [
             "Theme"
           ],
+          "_name": "content5",
+          "_anchor": "content5-12",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x3000.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "Promotions",
+          "caption": "<p>The goal of any promotion is to achieve the brand’s business objectives, and a well-planned and executed social media promotion does just that. The right program moves customers through the purchase loop and can turn customers into fans and fans into advocates.&nbsp;</p>",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            "P": {
+              "color": "#ffffff",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
           "_name": "content4",
           "_styles": {
             "H4": {
-              "font-size": "17px",
-              "font-family": "'Alegreya Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+              "font-size": "14px",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
             }
           },
           "_anchor": "content4-m",
           "_params": {
-            "paddingTop": 3,
+            "paddingTop": "4",
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#fff",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1502.jpg",
+            "bgColor": "#5cb85c",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -352,9 +392,9 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "columns": 4,
+            "columns": "4",
             "showTitles": true,
-            "showCaptions": true
+            "showCaptions": false
           },
           "title1": "Social Media Development",
           "caption1": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",

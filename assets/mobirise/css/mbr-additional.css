@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+
 
 
 
@@ -71,9 +72,17 @@
 #content5-l P {
   font-family: 'Open Sans Condensed', sans-serif;
 }
+#content5-12 .mbr-section-title {
+  color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+}
+#content5-12 P {
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
 #content4-m H4 {
-  font-size: 17px;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 14px;
+  font-family: 'Oxygen', sans-serif;
 }
 #form1-10 .mbr-section-title {
   font-family: 'Lato', sans-serif;
