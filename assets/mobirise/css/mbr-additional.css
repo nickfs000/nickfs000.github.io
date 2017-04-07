@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 
@@ -7,9 +10,20 @@
 
 
 
+
+
+
+
 #slider-h H2 {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 60px;
+  color: #000000;
+}
+#slider-h P {
+  color: #ffffff;
+}
+#form2-p .mbr-section-title {
+  font-family: 'Oxygen', sans-serif;
 }
 #dropdown-menu-2btn-0 .hide-buttons [data-button] {
   display: none !important;
@@ -18,7 +32,7 @@
 #dropdown-menu-2btn-0 .dropdown-item {
   font-size: 1.4em;
   color: #000000;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 #dropdown-menu-2btn-0 .navbar,
 #dropdown-menu-2btn-0 .dropdown-menu {
@@ -39,20 +53,30 @@
   text-align: center;
 }
 #msg-box3-g .mbr-section-title {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+}
+#msg-box3-g .lead P {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 #content5-k .mbr-section-title {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+}
+#content5-k P {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 #content5-l .mbr-section-title {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+}
+#content5-l P {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 #content4-m H4 {
   font-size: 17px;
   font-family: 'Alegreya Sans', sans-serif;
 }
-#form2-p .mbr-section-title {
-  font-family: 'Alegreya Sans', sans-serif;
+#form1-10 .mbr-section-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
 }
 
 
@@ -76,9 +100,6 @@
 }
 #dropdown-menu-2btn-q .navbar-toggler {
   color: #000000;
-}
-#image1-x DIV {
-  text-align: center;
 }
 #form1-t .mbr-section-title {
   font-family: 'Lato', sans-serif;
