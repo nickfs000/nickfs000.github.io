@@ -7,6 +7,12 @@
 
 
 
+#custom-html-9 {
+  /* Type valid CSS here */
+}
+#custom-html-9 .my-image {
+  width: 100%;
+}
 #slider-h H2 {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 60px;
@@ -31,12 +37,6 @@
 }
 #dropdown-menu-2btn-0 .navbar-toggler {
   color: #000000;
-}
-#custom-html-9 {
-  /* Type valid CSS here */
-}
-#custom-html-9 .my-image {
-  width: 100%;
 }
 #msg-box3-g .mbr-header .mbr-header__text {
   text-align: center;

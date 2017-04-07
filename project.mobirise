@@ -23,12 +23,33 @@
       },
       "components": [
         {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<img class=\"my-image\" src=\"http://hntllc.com/RRR/assets/images/rrr-raiserestaurantrevenue-2000x1267.jpg\">",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-9"
+        },
+        {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "slider",
+          "_styles": {
+            "H2": {
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-size": "60px"
+            }
+          },
           "_params": {
             "autoplay": true,
             "paddingTop": 3,
@@ -73,14 +94,7 @@
             "showBullets": true
           },
           "_anchor": "slider-h",
-          "articleLayout": false,
-          "_styles": {
-            "H2": {
-              "font-family": "'Alegreya Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
-              "font-size": "60px"
-            }
-          }
+          "articleLayout": false
         },
         {
           "_inherit": "dropdown-menu",
@@ -120,38 +134,26 @@
               "css": "'Alegreya Sans', sans-serif"
             },
             "fontColor": "#000000",
-            "transparent": true,
+            "transparent": false,
             "sticky": false,
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@ADDONS_PATH@/dropdown-menu/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/rrr-raiserestaurantrevenue-small-281x128.png",
               "class": "",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Raise Restaurant Revenue</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-pin mbr-iconfont mbr-iconfont-btn\"></span>Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"https://mobirise.com/\">For Mac</a></li>"
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<img class=\"my-image\" src=\"http://hntllc.com/RRR/assets/images/rrr-raiserestaurantrevenue-2000x1267.jpg\">",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
         },
         {
           "alias": "purity/components",
@@ -253,6 +255,12 @@
             "Theme"
           ],
           "_name": "content5",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            }
+          },
           "_anchor": "content5-k",
           "_params": {
             "paddingTop": 3,
@@ -273,13 +281,7 @@
             "showCaption": true
           },
           "title": "Social Media Marketing Is All We Do",
-          "caption": "<p>We work with brand managers, marketers, PR or social media teams, and even other agencies to deliver social media marketing services that generate measurable business results.&nbsp;</p>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Alegreya Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
-            }
-          }
+          "caption": "<p>We work with brand managers, marketers, PR or social media teams, and even other agencies to deliver social media marketing services that generate measurable business results.&nbsp;</p>"
         },
         {
           "alias": "purity/components",
@@ -287,6 +289,12 @@
             "Theme"
           ],
           "_name": "content5",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            }
+          },
           "_anchor": "content5-l",
           "_params": {
             "paddingTop": 3,
@@ -307,13 +315,7 @@
             "showCaption": true
           },
           "title": "Our Mission: Transform the world of marketing through social media",
-          "caption": "<p>Be it across the entire social media mix or the small-scale plans for product launches, we have a well-defined, market-tested process for working with clients on award-winning social strategies. We build a roadmap for success aligning audience, objectives, strategies and tactics in a way that achieves specific, measurable results.&nbsp;</p>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Alegreya Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
-            }
-          }
+          "caption": "<p>Be it across the entire social media mix or the small-scale plans for product launches, we have a well-defined, market-tested process for working with clients on award-winning social strategies. We build a roadmap for success aligning audience, objectives, strategies and tactics in a way that achieves specific, measurable results.&nbsp;</p>"
         },
         {
           "alias": "purity/components",
@@ -321,6 +323,13 @@
             "Theme"
           ],
           "_name": "content4",
+          "_styles": {
+            "H4": {
+              "font-size": "17px",
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            }
+          },
           "_anchor": "content4-m",
           "_params": {
             "paddingTop": 3,
@@ -348,14 +357,7 @@
           "title3": "Community Management",
           "caption3": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",
           "title4": "Social Content Creation",
-          "caption4": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>",
-          "_styles": {
-            "H4": {
-              "font-size": "17px",
-              "font-family": "'Alegreya Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
-            }
-          }
+          "caption4": "<br>Some brands just throw their ads on Facebook. We don’t create content for those brands. We have two in-house studios and years of experience creating Passion Point focused social media content that truly engages fans around your brand and products.&nbsp;<br>"
         },
         {
           "alias": "purity/components",
@@ -384,6 +386,12 @@
             "Theme"
           ],
           "_name": "form2",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            }
+          },
           "_anchor": "form2-p",
           "_params": {
             "paddingTop": 3,
@@ -411,13 +419,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Subscribe</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Alegreya Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Subscribe</a>"
         }
       ]
     },
@@ -487,6 +489,11 @@
             "Theme"
           ],
           "_name": "image1",
+          "_styles": {
+            "DIV": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "image1-x",
           "_params": {
             "showText": true
@@ -501,12 +508,7 @@
               "src": "https://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "text": "Get the recognition your restaurant deserves!",
-          "_styles": {
-            "DIV": {
-              "text-align": "center"
-            }
-          }
+          "text": "Get the recognition your restaurant deserves!"
         },
         {
           "alias": "purity/components",
