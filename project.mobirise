@@ -26,7 +26,7 @@
           "_customTemplate": true,
           "_afterNavbarItem": false,
           "_customHTML": "<!-- Type valid HTML here -->\n<img class=\"my-image\" src=\"http://hntllc.com/RRR/assets/images/rrr-raiserestaurantrevenue-2000x1267.jpg\">",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 80%;\n}",
           "alias": "code-editor",
           "_tags": [
             "Extension"
@@ -137,7 +137,7 @@
             "transparent": false,
             "sticky": false,
             "logo": true,
-            "showBrand": true,
+            "showBrand": false,
             "hideButtons": true
           },
           "logo": {
@@ -467,7 +467,7 @@
             "transparent": true,
             "sticky": false,
             "logo": false,
-            "showBrand": true,
+            "showBrand": false,
             "hideButtons": true
           },
           "logo": {
