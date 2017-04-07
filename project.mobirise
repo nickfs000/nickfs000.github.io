@@ -23,20 +23,6 @@
       },
       "components": [
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<img class=\"my-image\" src=\"http://hntllc.com/RRR/assets/images/rrr-raiserestaurantrevenue-2000x1267.jpg\">",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 80%;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_anchor": "custom-html-9"
-        },
-        {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "alias": "purity/components",
           "_tags": [
