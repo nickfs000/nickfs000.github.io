@@ -191,7 +191,7 @@
               "class": "",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             }
@@ -329,6 +329,18 @@
             "Theme"
           ],
           "_name": "content5",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            "P": {
+              "color": "#ffffff",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
           "_anchor": "content5-12",
           "_params": {
             "paddingTop": 3,
@@ -349,19 +361,7 @@
             "showCaption": true
           },
           "title": "Promotions",
-          "caption": "<p>The goal of any promotion is to achieve the brand’s business objectives, and a well-planned and executed social media promotion does just that. The right program moves customers through the purchase loop and can turn customers into fans and fans into advocates.&nbsp;</p>",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#ffffff",
-              "font-family": "'Oxygen', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
-            },
-            "P": {
-              "color": "#ffffff",
-              "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
-            }
-          }
+          "caption": "<p>The goal of any promotion is to achieve the brand’s business objectives, and a well-planned and executed social media promotion does just that. The right program moves customers through the purchase loop and can turn customers into fans and fans into advocates.&nbsp;</p>"
         },
         {
           "alias": "purity/components",
