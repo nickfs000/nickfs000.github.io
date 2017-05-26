@@ -22,7 +22,10 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 4,
-    "versionPublish": "3.12.1"
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/hatch-homes-logo-white-cropped-128x40.png",
+    "noImageResize": "",
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
