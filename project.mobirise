@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NewSite-05-26_0012",
-    "currentPage": "thankyou.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -68,7 +68,7 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get started</a>",
           "header": "Please complete details below",
           "form": {
-            "action": "contact@hatchyourhome.com",
+            "action": "info@hntllc.com",
             "alerts": {
               "success": "Thank you for filling out the form!"
             },
