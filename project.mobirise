@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NewSite-05-26_0012",
-    "currentPage": "index.html",
+    "currentPage": "thankyou.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -145,7 +145,7 @@
           },
           "title": "Thank You",
           "text": "We will contact you shortly",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Back to Homepage</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-success\" href=\"http://www.hatchyourhome.com\" data-toolbar=\"-mbrBtnMove\">Back to Homepage</a>",
           "_styles": {
             ".mbr-iconfont": {},
             ".mbr-table-cell": {
