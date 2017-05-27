@@ -523,6 +523,9 @@ a:hover {
 #form1-4 .form {
   background: #fafbfc;
 }
+#form1-4 .form {
+  background: #fafbfc;
+}
 #form1-4 .heading-title P {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
@@ -534,10 +537,6 @@ a:hover {
 
 
 
-#header4-3 .mbr-iconfont {
-  color: undefined;
-  border-color: undefined;
-}
 #header4-3 .mbr-table-cell {
   vertical-align: middle;
 }

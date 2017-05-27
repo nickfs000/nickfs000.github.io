@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "NewSite-05-26_0012",
+    "name": "Hatch Homes Salesforce Lead",
     "currentPage": "index.html",
     "theme": {
       "name": "directm",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 5,
+    "uniqCompNum": 6,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/hatch-homes-logo-white-cropped-128x40.png",
     "noImageResize": "",
@@ -32,7 +32,7 @@
       "settings": {
         "main": true,
         "title": "",
-        "meta_descr": "",
+        "meta_descr": "<META HTTP-EQUIV=\"Content-type\" CONTENT=\"text/html; charset=UTF-8\">",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -43,28 +43,27 @@
             "Theme"
           ],
           "_name": "form1",
-          "_anchor": "form1-4",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "formBg": "#fafbfc",
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "file:///Users/nicksanchez/Library/Application%20Support/Mobirise.com/Mobirise/projectData/01.jpg",
-            "bgColor": "#fffffd",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.95,
-            "overlayColor": "#fffffd",
             "showHeading": true,
             "showTitle": true,
             "showText": false,
             "showButtons": false,
-            "formHeader": false
+            "formBg": "#fafbfc",
+            "formHeader": false,
+            "bgImageRadio": false,
+            "bgImage": "file:///Users/nicksanchez/Library/Application%20Support/Mobirise.com/Mobirise/projectData/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
           },
           "title": "<p>Schedule a Consultation</p>",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
@@ -98,11 +97,17 @@
             }
           },
           "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND</a>",
-          "_customHTML": "<section class=\"mbr-section mbr-section-hero form1\" style=\"background-color: rgb(255, 255, 253); padding-top: 40px; padding-bottom: 40px;\">\n\n    \n\n        <div class=\"container\">\n            <div class=\"row heading\">\n                <div class=\"col-md-12 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-3 heading-title mbr-editable-content\" code-editable-id=\"71\"><p>Schedule a Consultation</p></h1>\n                    \n                    \n                </div>\n            </div>\n        </div>\n\n        <div class=\"container\">\n            <div class=\"col-xs-12 form\">\n\n                \n\n                <div class=\"row\" data-form-type=\"formoid\">\n                    <div data-form-alert=\"true\">\n                        <div hidden=\"\" data-form-alert-success=\"true\" class=\"alert alert-form alert-success text-xs-center\">Thank you for filling out the form!</div>\n                    </div>\n\n\n                    <form action=\"https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8\" method=\"POST\" data-form-title=\"Schedule a Consultation\">\n                        <input type=\"hidden\" name=\"oid\" value=\"00D6A000000g8MF\">\n\n                        <input type=\"hidden\" name=\"retURL\" value=\"https://nickfs000.github.io/thankyou.html\" data-form-email=\"true\">\n\n                        <div class=\"col-xs-12 col-md-8 col-md-offset-2 form-wrap\">\n\n                            <div class=\"col-xs-12\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"first_name\">First Name (required)</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"first_name\" required=\"\" data-form-field=\"Name\" placeholder=\"First Name (required)\" id=\"first_name\" maxlength=\"40\" size=\"20\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"first_name\">Last Name (required)</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"last_name\" required=\"\" data-form-field=\"Name\" placeholder=\"Last Name (required)\" id=\"last_name\" maxlength=\"80\" size=\"20\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\">Email (required)</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"email\" required=\"\" data-form-field=\"Email\" placeholder=\"Email (required)\" id=\"email\" maxlength=\"80\" size=\"20\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\">Phone Number</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Phone Number\" id=\"phone\" maxlength=\"40\" size=\"20\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12\">\n                                <label class=\"form-control-label\">Your Message</label>\n                                <textarea class=\"form-control\" name=\"description\" rows=\"7\" data-form-field=\"Message\" placeholder=\"Your Message\"></textarea>\n                            </div>\n\n                        </div>\n\n                        <div class=\"clear\"></div>\n\n                        <div class=\"form-separator\"></div>\n\n                        <div class=\"col-xs-12 col-md-8 col-md-offset-2 form-button-wrap\">\n\n                            <div class=\"text-xs-center text-md-right\"><input type=\"submit\" name=\"submit\" class=\"btn btn-lg btn-success mbr-editable-button\" code-editable-id=\"72\"></div>\n\n                        </div>\n\n                    </form>\n\n                </div>\n    \n            </div>\n        </div>\n\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero form1\" style=\"background-color: rgb(255, 255, 253); padding-top: 40px; padding-bottom: 40px;\">\n\n        <div class=\"container\">\n            <div class=\"row heading\">\n                <div class=\"col-md-12 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-3 heading-title mbr-editable-content\" code-editable-id=\"34\"><p>Schedule a Consultation</p></h1>\n                    \n                    \n                </div>\n            </div>\n        </div>\n\n        <div class=\"container\">\n            <div class=\"col-xs-12 form\">\n\n                <div class=\"row\" data-form-type=\"formoid\">\n                    <div data-form-alert=\"true\">\n                        <div hidden=\"\" data-form-alert-success=\"true\" class=\"alert alert-form alert-success text-xs-center\">Thank you for filling out the form!</div>\n                    </div>\n\n\n                    <form action=\"https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8\" method=\"POST\" data-form-title=\"Schedule a Consultation\">\n                        <input type=\"hidden\" name=\"oid\" value=\"00D6A000000g8MF\">\n\n                        <input type=\"hidden\" name=\"retURL\" value=\"https://nickfs000.github.io/thankyou.html\" data-form-email=\"true\">\n                        <!-- ------- update URL value with Hatch Your Home's thank you html------- -->\n\n                        <div class=\"col-xs-12 col-md-8 col-md-offset-2 form-wrap\">\n\n                            <div class=\"col-xs-12\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"first_name\">First Name (required)</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"first_name\" required=\"\" data-form-field=\"Name\" placeholder=\"First Name (required)\" id=\"first_name\" maxlength=\"40\" size=\"20\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"first_name\">Last Name (required)</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"last_name\" required=\"\" data-form-field=\"Name\" placeholder=\"Last Name (required)\" id=\"last_name\" maxlength=\"80\" size=\"20\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\">Email (required)</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"email\" required=\"\" data-form-field=\"Email\" placeholder=\"Email (required)\" id=\"email\" maxlength=\"80\" size=\"20\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12\">\n                                <label class=\"form-control-label\">Street</label>\n                                <textarea class=\"form-control\" name=\"street\" rows=\"1\" data-form-field=\"Message\" placeholder=\"Street\"></textarea>\n                            </div>\n\n\n                            <div class=\"col-xs-12\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\">City</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"city\" data-form-field=\"Name\" placeholder=\"City\" id=\"city\" maxlength=\"40\" size=\"20\">\n                                </div>\n                            </div>\n\n\n                            <div class=\"col-xs-12\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\">State</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"state\" data-form-field=\"Name\" placeholder=\"State\" id=\"state\" maxlength=\"20\" size=\"20\">\n                                </div>\n                            </div>\n\n\n                            <div class=\"col-xs-12\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\">Zip</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"zip\" data-form-field=\"Name\" placeholder=\"Zip\" id=\"zip\" maxlength=\"20\" size=\"20\">\n                                </div>\n                            </div>\n\n\n                            <div class=\"col-xs-12\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\">Phone Number</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Phone Number\" id=\"phone\" maxlength=\"40\" size=\"20\"> \n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12\">\n                                <label class=\"form-control-label\">Your Message</label>\n                                <textarea class=\"form-control\" name=\"00N6A000004zvYL\" rows=\"7\" wrap=\"soft\" data-form-field=\"Message\" placeholder=\"Your Message\" id=\"00N6A000004zvYL\"></textarea><!-- Lead Comments -->\n                            </div>\n\n                            <div class=\"col-xs-12\">\n                                Siding:<input id=\"00N6A000004zvY1\" name=\"00N6A000004zvY1\" type=\"checkbox\" value=\"1\"><br>\n\n                                Roofing:<input id=\"00N6A000004zvY6\" name=\"00N6A000004zvY6\" type=\"checkbox\" value=\"1\"><br>\n\n                                Windows:<input id=\"00N6A000004zvYB\" name=\"00N6A000004zvYB\" type=\"checkbox\" value=\"1\"><br>\n\n                                Other:<input id=\"00N6A000004zvYG\" name=\"00N6A000004zvYG\" type=\"checkbox\" value=\"1\"><br>\n                            </div>\n\n                            <div class=\"col-xs-12\">\n\n                                Lead Type:  <input type=\"radio\" id=\"00N6A000004yDeS\" name=\"00N6A000004yDeS\" option=\"\" value=\"In Home\" title=\"Lead Type\">In-Person<br>\n                                            <input type=\"radio\" id=\"00N6A000004yDeS\" name=\"00N6A000004yDeS\" option=\"\" value=\"Virtual\" title=\"Lead Type\">Virtual<br>\n\n                            </div>\n\n                        </div>\n\n                        <div class=\"clear\"></div>\n\n                        <div class=\"form-separator\"></div>\n\n                        <div class=\"col-xs-12 col-md-8 col-md-offset-2 form-button-wrap\">\n\n                            <div class=\"text-xs-center text-md-right\"><input type=\"submit\" name=\"submit\" class=\"btn btn-lg btn-success mbr-editable-button\" code-editable-id=\"35\"></div>\n\n                        </div>\n\n                    </form>\n\n                </div>\n    \n            </div>\n        </div>\n\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);\n@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);\n.form {\n\tbackground: #fafbfc;\n}\n.heading-title P {\n\tfont-family: 'Montserrat', sans-serif;\n\tfont-size: 25px;\n}\n.form-title {\n\tfont-family: 'Montserrat', sans-serif;\n\ttext-align: center;\n}\n",
-          "_customTemplate": true
+          "_customTemplate": true,
+          "_anchor": "form1-4",
+          "_styles": {
+            ".form": {
+              "background": "#fafbfc"
+            }
+          }
         }
       ]
     },
@@ -116,6 +121,26 @@
             "Theme"
           ],
           "_name": "header4",
+          "_styles": {
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "46px"
+            },
+            ".heading-text": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "20px"
+            },
+            ".btn": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
           "_anchor": "header4-3",
           "_params": {
             "parallax": false,
@@ -138,27 +163,7 @@
           },
           "title": "Thank You",
           "text": "We will contact you shortly",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-success\" href=\"http://www.hatchyourhome.com\" data-toolbar=\"-mbrBtnMove\">Back to Homepage</a>",
-          "_styles": {
-            ".mbr-iconfont": {},
-            ".mbr-table-cell": {
-              "vertical-align": "middle"
-            },
-            ".heading-title": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "46px"
-            },
-            ".heading-text": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "20px"
-            },
-            ".btn": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-success\" href=\"http://www.hatchyourhome.com\" data-toolbar=\"-mbrBtnMove\">Back to Homepage</a>"
         }
       ]
     }

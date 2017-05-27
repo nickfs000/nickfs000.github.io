@@ -7,7 +7,7 @@
   <meta name="generator" content="Mobirise v3.12.1, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="assets/images/hatch-homes-logo-white-cropped-128x40.png" type="image/x-icon">
-  <meta name="description" content="">
+  <meta name="description" content="<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">">
   
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
@@ -20,8 +20,6 @@
 </head>
 <body>
 <div id="form1-4" custom-code="true"><section class="mbr-section mbr-section-hero form1" style="background-color: rgb(255, 255, 253); padding-top: 40px; padding-bottom: 40px;">
-
-    
 
         <div class="container">
             <div class="row heading">
@@ -37,18 +35,17 @@
         <div class="container">
             <div class="col-xs-12 form">
 
-                
-
                 <div class="row" data-form-type="formoid">
                     <div data-form-alert="true">
                         <div hidden="" data-form-alert-success="true" class="alert alert-form alert-success text-xs-center">Thank you for filling out the form!</div>
                     </div>
 
 
-                    <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" data-form-title="Schedule a Consultation">
+                    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" data-form-title="Schedule a Consultation">
                         <input type="hidden" name="oid" value="00D6A000000g8MF">
 
                         <input type="hidden" name="retURL" value="https://nickfs000.github.io/thankyou.html" data-form-email="true">
+                        <!-- ------- update URL value with Hatch Your Home's thank you html------- -->
 
                         <div class="col-xs-12 col-md-8 col-md-offset-2 form-wrap">
 
@@ -74,15 +71,62 @@
                             </div>
 
                             <div class="col-xs-12">
+                                <label class="form-control-label">Street</label>
+                                <textarea class="form-control" name="street" rows="1" data-form-field="Message" placeholder="Street"></textarea>
+                            </div>
+
+
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <label class="form-control-label">City</label>
+                                    <input type="text" class="form-control" name="city" data-form-field="Name" placeholder="City" id="city" maxlength="40" size="20">
+                                </div>
+                            </div>
+
+
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <label class="form-control-label">State</label>
+                                    <input type="text" class="form-control" name="state" data-form-field="Name" placeholder="State" id="state" maxlength="20" size="20">
+                                </div>
+                            </div>
+
+
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <label class="form-control-label">Zip</label>
+                                    <input type="text" class="form-control" name="zip" data-form-field="Name" placeholder="Zip" id="zip" maxlength="20" size="20">
+                                </div>
+                            </div>
+
+
+                            <div class="col-xs-12">
                                 <div class="form-group">
                                     <label class="form-control-label">Phone Number</label>
-                                    <input type="text" class="form-control" name="phone" data-form-field="Phone" placeholder="Phone Number" id="phone" maxlength="40" size="20">
+                                    <input type="text" class="form-control" name="phone" data-form-field="Phone" placeholder="Phone Number" id="phone" maxlength="40" size="20"> 
                                 </div>
                             </div>
 
                             <div class="col-xs-12">
                                 <label class="form-control-label">Your Message</label>
-                                <textarea class="form-control" name="description" rows="7" data-form-field="Message" placeholder="Your Message"></textarea>
+                                <textarea class="form-control" name="00N6A000004zvYL" rows="7" wrap="soft" data-form-field="Message" placeholder="Your Message" id="00N6A000004zvYL"></textarea><!-- Lead Comments -->
+                            </div>
+
+                            <div class="col-xs-12">
+                                Siding:<input id="00N6A000004zvY1" name="00N6A000004zvY1" type="checkbox" value="1"><br>
+
+                                Roofing:<input id="00N6A000004zvY6" name="00N6A000004zvY6" type="checkbox" value="1"><br>
+
+                                Windows:<input id="00N6A000004zvYB" name="00N6A000004zvYB" type="checkbox" value="1"><br>
+
+                                Other:<input id="00N6A000004zvYG" name="00N6A000004zvYG" type="checkbox" value="1"><br>
+                            </div>
+
+                            <div class="col-xs-12">
+
+                                Lead Type:  <input type="radio" id="00N6A000004yDeS" name="00N6A000004yDeS" option="" value="In Home" title="Lead Type">In-Person<br>
+                                            <input type="radio" id="00N6A000004yDeS" name="00N6A000004yDeS" option="" value="Virtual" title="Lead Type">Virtual<br>
+
                             </div>
 
                         </div>
