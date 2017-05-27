@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Hatch Homes Salesforce Lead",
-    "currentPage": "page2.html",
+    "currentPage": "form.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -170,10 +170,10 @@
         }
       ]
     },
-    "page2.html": {
+    "form.html": {
       "settings": {
         "order": 1,
-        "header_custom": "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n  <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>\n  <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>"
+        "header_custom": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n  <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>\n  <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>"
       },
       "components": [
         {
