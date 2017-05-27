@@ -44,7 +44,10 @@
                     <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" data-form-title="Schedule a Consultation">
                         <input type="hidden" name="oid" value="00D6A000000g8MF">
                         <input type="hidden" name="company" value="company test" maxlength="40" size="20">
-
+                        <input type="hidden" name="debug" value="1">
+                        <input type="hidden" name="debugEmail" value="hatchhome@hntllc.com"> 
+                        <input type="hidden" name="state_code" value="North Carolina">
+                        <input type="hidden" name="country" value="US">
                         <input type="hidden" name="retURL" value="https://nickfs000.github.io/thankyou.html" data-form-email="true">
                         <!-- ------- update URL value with Hatch Your Home's thank you html------- -->
 
@@ -84,17 +87,17 @@
                                 </div>
                             </div>
 
-
+<!--
                             <div class="col-xs-12">
-                                <!-- <div class="form-group"> -->
+                                <div class="form-group">
                                     State
                                         <select id="state_code" name="state_code">
                                             <option value="North Carolina">North Carolina</option> 
                                             <option value="South Carolina">South Carolina</option>
                                         </select>            
-                            <!--    </div>. -->
+                                </div>
                             </div>
-
+-->
 
                             <div class="col-xs-12">
                                 <div class="form-group">
@@ -161,6 +164,7 @@
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/smooth-scroll/smooth-scroll.js"></script>
   <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid/formoid.min.js"></script>
   
   
 </body>
