@@ -102,12 +102,12 @@
           "_JSplaceholders": [],
           "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);\n@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);\n.form {\n\tbackground: #fafbfc;\n}\n.heading-title P {\n\tfont-family: 'Montserrat', sans-serif;\n\tfont-size: 25px;\n}\n.form-title {\n\tfont-family: 'Montserrat', sans-serif;\n\ttext-align: center;\n}\n",
           "_customTemplate": true,
-          "_anchor": "form1-4",
           "_styles": {
             ".form": {
               "background": "#fafbfc"
             }
-          }
+          },
+          "_anchor": "form1-4"
         }
       ]
     },
