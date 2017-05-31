@@ -555,27 +555,13 @@ a:hover {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
-@primaryColor: #5aac98;
-@secondaryColor: #A25DAE;
-@successColor: #1E7C3A;
-@infoColor: #74a3c7;
-@warningColor: #FFD785;
-@dangerColor: #FF9685;
-@titleFont: 'Oxygen', sans-serif;
-@subtitleFont: 'Libre Franklin', serif;
-@textFont: 'Libre Franklin', serif;
-@isRoundedButtons: false;
-@isAnimatedOnScroll: false;
-@isScrollToTopButton: false;
-
-#form1-9 {
-.form {
-	background: #fafbfc;
+#form1-9 .form {
+  background: #fafbfc;
 }
-
-
-.form {
-	background: #fafbfc;
+#form1-9 .form {
+  background: #fafbfc;
 }
-.text-1 {font-size: 2rem !important;font-weight:700;}
-.btn-group-lg>.btn, .btn-lg (width: 100% !important;)}
+#form1-9 .text-1 {
+  font-size: 2rem !important;
+  font-weight: 700;
+}
