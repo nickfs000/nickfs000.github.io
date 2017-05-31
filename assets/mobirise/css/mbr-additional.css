@@ -559,12 +559,9 @@ a:hover {
   background: #fafbfc;
 }
 #form1-9 .form {
-  background: #fafbfc;
+  background: transparent;
 }
 #form1-9 .text-1 {
   font-size: 2rem !important;
   font-weight: 700;
-}
-#form1-9 .btn {
-  width: 100%;
 }
