@@ -1806,29 +1806,8 @@ body {
 .cid-qBudFh6z6g H5 {
   color: #55b4d4;
 }
-.cid-qBA4qAe7FD {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background: #232323;
-}
-.cid-qBA4qAe7FD .image-block {
-  margin: auto;
-}
-.cid-qBA4qAe7FD figcaption {
-  position: relative;
-}
-.cid-qBA4qAe7FD figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-qBA4qAe7FD .image-block {
-    width: 100% !important;
-  }
-}
 .cid-qBAjaiX2XL {
-  padding-top: 15px;
+  padding-top: 45px;
   padding-bottom: 45px;
   background-color: #232323;
 }
