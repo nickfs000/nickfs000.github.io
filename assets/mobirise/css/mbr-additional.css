@@ -1658,9 +1658,33 @@ body {
   color: #ba781d;
 }
 .cid-qBu8Fjko0X B {
-  color: #073b4c;
+  color: #ffffff;
+}
+.cid-qBA6sjIOmb {
+  padding-top: 60px;
+  padding-bottom: 15px;
+  background-color: #0f7699;
+}
+.cid-qBA6sjIOmb .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-qBA6sjIOmb .mbr-section-subtitle B {
+  color: #efefef;
+}
+.cid-qBA6tCjaot {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #0f7699;
+}
+.cid-qBA6tCjaot .mbr-section-subtitle {
+  color: #efefef;
+}
+.cid-qBA6tCjaot H2 {
+  color: #efefef;
 }
 .cid-qBubh9Muct {
+  padding-top: 60px;
+  padding-bottom: 15px;
   background: linear-gradient(45deg, #0f7699, #0f7699);
 }
 .cid-qBubh9Muct .mbr-section-subtitle {
