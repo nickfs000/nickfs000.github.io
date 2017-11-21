@@ -52,7 +52,7 @@
         "main": true,
         "title": "Home",
         "meta_descr": "",
-        "header_custom": "@media (max-width: 768px)\n.display-1 {\n    font-size: calc( 1.4875rem + (5.25 - 2.4875) * ((100vw - 20rem) / (48 - 20)));}",
+        "header_custom": "<style>\n@media (max-width: 768px)\n.display-1 {\n    font-size: calc( 1.4875rem + (5.25 - 2.4875) * ((100vw - 20rem) / (48 - 20)));}\n</style>",
         "footer_custom": "",
         "html_before": ""
       },
